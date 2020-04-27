@@ -1,0 +1,14 @@
+help
+cd ..
+pwd
+lsf
+cd ./somedirectory
+cat myfile.txt
+wc myfile.txt
+bunedu ../../
+lsf
+cat myfile.txt | wc
+pwd | bunedu -z
+lsf > lsfoutput.txt
+bunedu < filecontainingpath.txt
+exit
